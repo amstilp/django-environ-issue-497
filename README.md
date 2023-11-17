@@ -21,3 +21,8 @@ print(settings.SECRET_KEY)
 ```
 
 The secret key should be `test-#secret-key-with-a-hash-in-it`, but in `settings.SECRET_KEY` it is truncated after the hash characfter to `test-`.
+
+
+# Environment setup
+
+I've seen this on both python 3.8 and 3.9. I used python 3.9 for this repo/example.
